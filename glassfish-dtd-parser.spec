@@ -1,4 +1,4 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          glassfish-dtd-parser
 Version:       1.2
 Release:       0.8.20120120svn.0%{?dist}
@@ -42,3 +42,31 @@ This package contains javadoc for %{name}.
 
 %files javadoc -f .mfiles-javadoc
 %doc LICENSE.txt
+
+%changelog
+* Mon Aug 05 2013 gil cattaneo <puntogil@libero.it> 1.2-0.8.20120120svn
+- rebuilt rhbz#992383
+- swith to Xmvn
+- adapt to new guideline
+
+* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-0.7.20120120svn
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
+
+* Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-0.6.20120120svn
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
+
+* Wed Feb 06 2013 Java SIG <java-devel@lists.fedoraproject.org> - 1.2-0.5.20120120svn
+- Update for https://fedoraproject.org/wiki/Fedora_19_Maven_Rebuild
+- Replace maven BuildRequires with maven-local
+
+* Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-0.4.20120120svn
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
+
+* Mon Feb 13 2012 Juan Hernandez <juan.hernandez@redhat.com> 1.2-0.3.20120120svn
+- Fixed the release number
+
+* Mon Feb 13 2012 Juan Hernandez <juan.hernandez@redhat.com> 1.2-0.2.20120120svn
+- Updated license reference
+
+* Mon Feb 13 2012 Juan Hernandez <juan.hernandez@redhat.com> 1.2-0.1.20120120svn
+- Initial packaging
