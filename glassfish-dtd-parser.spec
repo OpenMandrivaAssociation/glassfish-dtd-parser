@@ -4,7 +4,7 @@ Version:       1.2
 Release:       0.8.20120120svn.0%{?dist}
 Summary:       Library for parsing XML DTDs
 License:       CDDL 1.1 and GPLv2 with exceptions
-Url:           http://java.net/projects/dtd-parser
+Url:           https://java.net/projects/dtd-parser
 # svn export https://svn.java.net/svn/dtd-parser~svn/trunk/dtd-parser glassfish-dtd-parser-1.2-SNAPSHOT
 # find glassfish-dtd-parser-1.2-SNAPSHOT/ -name '*.jar' -delete
 # tar czf glassfish-dtd-parser-1.2-SNAPSHOT-src-svn.tar.gz glassfish-dtd-parser-1.2-SNAPSHOT
