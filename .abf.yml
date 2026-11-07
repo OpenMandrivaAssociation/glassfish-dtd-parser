@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   glassfish-dtd-parser-1.2-SNAPSHOT-src-svn.tar.gz: 3cb1621ebe43a7384ab72e0a876628ad8f769a1a
+sources:
+  glassfish-dtd-parser-1.5.1.tar.gz: 7589f1696cf31d89dbc4a133f634dd55aa12f847
